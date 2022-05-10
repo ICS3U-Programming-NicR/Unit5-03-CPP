@@ -153,7 +153,8 @@ int main() {
         if (counter > 0) {
             averagePercentage = totalPercentage / counter;
             cout << "You average percentage is "\
-                    << std::fixed << std::setprecision(2) << averagePercentage;
+                    << std::fixed << std::setprecision(2)\
+                    << averagePercentage << "%";
         } else {
             cout << "your average percentage is 0 since "\
                     "you didn't input any valid values";
